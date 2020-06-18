@@ -175,3 +175,13 @@ max-width: 100px;
   text-align: center;
   height: 750px;
 }
+
+.our-purpose{
+  padding-top: 220px;
+  background-image: url("../img/ouraimsBG.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 750px;
+}
