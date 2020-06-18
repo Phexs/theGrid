@@ -118,7 +118,7 @@ max-width: 100px;
 
 /* live stream Style  */
 .live-stream{
-  padding-top: 210px;
+  padding-top: 60px;
   background-image: url("../img/weseeyouBg.png");
   position: relative;
   background-size: cover;
@@ -128,8 +128,27 @@ max-width: 100px;
   
 }
 .viewport-stream{
-  
+ margin-left: 30%;
+ text-align: center;
 } 
+.main-stream{
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  border: solid rgb(255, 255, 255) 2px;
+  max-width: 500px;
+  height: 300px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+.Stream-sub-view{
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  border: solid rgb(70, 68, 68) 2px;
+  height: 200px;
+ margin: 15px;
+}
 
 /* Your Streams Here  Styles*/
 .your-live-feed{
