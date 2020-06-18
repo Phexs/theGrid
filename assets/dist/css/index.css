@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html {
+font-size: 14px;
+}
+@media (min-width: 768px) {
+html {
+  font-size: 16px;
+}
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  /* color: rgb(5, 5, 5);   */
+  padding: 30px;
+}
+/* .container{
+ 
+  border: solid rgb(255, 251, 9) 2px;
+} */
+/* Viewport Landing page 1 */
+
+.top-nav{
+  border: solid rgb(255, 255, 255) 2px;
+}
+#landing-view{
+  height: 70vh;
+  display: inline-block;
+  padding: 30px;
+ 
+}
+.viewport1{
+  padding-bottom: 30px;
+}
+.stream-view{
+  display: inline-block;
+  /* max-width: 900px; */
+  /* border: solid black 2px; */
+  margin-right:10px;
+  padding: 0px;
+}
+
+.view-1{
+  display: inline-block;
+  text-align: center;
+  border: solid rgb(65, 63, 63) 2px;
+  max-width: 680px;
+  height: 200px;
+  padding: 0px;
+  
+}
+.sub-view{
+  text-align: center;
+  display: inline-block;
+  border: solid rgb(70, 68, 68) 2px;
+  max-width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right:10px;
+}
+
+.right-side{
+  margin-left:20px;
+  display: inline-block;
+  /* border: solid blue 2px; */
+  width: 450px;
+  /* height: 800px; */
+  padding: 0px;
+  
+}
+.thegrid{
+  font-size: 60px;
+}
+.right-view{
+  /* border: solid black 2px; */
+  max-width: 400px;
+  height: 200px;
+  padding: 0px;
+}
+
+.sub-view-right{
+  margin-top: 20px;
+  width: 300px;
+}
+/* Grid view for the side-bar to the right */
+.side-view{
+max-width: 100px;
+
+}
+
+
+.viewport2{
+  padding-top: 220px;
+  background-image: url("../img/yournowonlineBg.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 750px;
+}
+.view-2 {
+}
+.stream-1{
+  background-color: white;
+  display: inline-block;
+  border: solid black 2px;
+  width: 750px;
+  height: 350px;
+  margin-left: 300px;
+}
+/* Viewport landing page END here  */
+
+/* live stream Style  */
+.live-stream{
+  padding-top: 210px;
+  background-image: url("../img/weseeyouBg.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 750px;
+  
+}
+.viewport-stream{
+  
+} 
+
+/* Your Streams Here  Styles*/
+.your-live-feed{
+  padding-top: 220px;
+  background-image: url("../img/yournowonlineBg.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 750px;
+}
+
+
+
+/* About Us Styles  */
+
+.about-us{
+  
+  padding-top: 220px;
+  background-image: url("../img/aboutusBg.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 750px;
+}
