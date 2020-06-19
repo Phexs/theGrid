@@ -42,6 +42,15 @@ body {
 .who-are-we-paragraph{
   font-family: "aw-conqueror-didot",serif;
   font-size: 20px;
+  text-align: left;
+  /* padding-left: 120px; */
+  
+}
+.missing-out-paragraph{
+  font-family: "aw-conqueror-didot",serif;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 120px;
   
 }
 .about-us-text{
@@ -60,7 +69,11 @@ body {
   text-align: justify;
   font-size: 18px;
   padding-left: 300px;
- 
+}
+.navtext{
+  font-family: "aktiv-grotesk-extended",sans-serif;
+  display: inline-block;
+  font-size: 20px;
 }
 
 
@@ -243,7 +256,7 @@ body {
 
 /* Our Purpose Styles  */
 .our-purpose{
-  padding-top: 250px;
+  padding-top: 350px;
   background-image: url("../img/ouraimsBG.png");
   position: relative;
   background-size: cover;
