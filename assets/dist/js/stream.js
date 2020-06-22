@@ -11,56 +11,24 @@
 
     // 3. This function creates an <iframe> (and YouTube player)
     //    after the API code downloads.
-    var player;
-    window.onload = function onYouTubeIframeAPIReady() {
-      player = new YT.Player('player',{
+     var player;
+     function onYouTubeIframeAPIReady() {
+        player = new YT.Player('stream',{
         autoplay: 1,
         loop: 1,
-        height: '390',
-        width: '640',
-        videoId: 'LTy1FLAS8SA',
+        height='315',
+        width='560', 
+        videoId: '9XokG2z7dZk',
         events: {
           'onReady': onPlayerReady,
           'onStateChange': onPlayerStateChange
         }
       });
     }
-    // var player1;
-  
-     function onYouTubeIframeAPIReady(){
-      
-      player = new YT.Player('player1',{
-        autoplay: 1,
-        loop: 1,
-        height: '200',
-        width: '200',
-        videoId: 'VFns_niFve4',
-        events: {
-          'onReady': onPlayerReady,
-          'onStateChange': onPlayerStateChange
-        }
-      });
-  
-    }
-  //  window.onload = function onYouTubeIframeAPIReady(){
-      
-  //     player = new YT.Player('player2',{
-  //       autoplay: 1,
-  //       loop: 1,
-  //       height='315',
-  //       width='560', 
-  //       videoId: 'P4AN8IdR_mgVFns_niFve4',
-  //       events: {
-  //         'onReady': onPlayerReady,
-  //         'onStateChange': onPlayerStateChange
-  //       }
-  //     });
-  //   }
 
     // 4. The API will call this function when the video player is ready.
     function onPlayerReady(event) {
       event.target.playVideo();
-      // document.getElementById('player1').event.target.playVideo();
     }
 
     // 5. The API calls this function when the player's state changes.
